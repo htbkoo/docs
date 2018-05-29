@@ -138,7 +138,7 @@ Let's start with `app/app.js`, as it's the starting point for NativeScript apps.
 
 ``` JavaScript
 var applicationModule = require("application");
-applicationModule.start({ moduleName: "views/login/login" });
+applicationModule.run({ moduleName: "views/login/login" });
 ```
 
 Here, you're requiring, or importing, the [NativeScript application module]({%ns_cookbook application%}). Then, you call its `start()` method with the starting screen of your app (the login screen), which lives in your app's `views/login` folder.
