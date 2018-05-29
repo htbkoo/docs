@@ -141,7 +141,7 @@ var applicationModule = require("application");
 applicationModule.run({ moduleName: "views/login/login" });
 ```
 
-Here, you're requiring, or importing, the [NativeScript application module]({%ns_cookbook application%}). Then, you call its `start()` method with the starting screen of your app (the login screen), which lives in your app's `views/login` folder.
+Here, you're requiring, or importing, the [NativeScript application module]({%ns_cookbook application%}). Then, you call its `run()` method with the starting screen of your app (the login screen), which lives in your app's `views/login` folder.
 
 > **TIP**: JavaScript modules in NativeScript follow the [CommonJS specification](http://wiki.commonjs.org/wiki/CommonJS). This means you can use the [`require()` method](http://wiki.commonjs.org/wiki/Modules/1.1#Module_Context) to import modules, as is done above, as well as use the `export` keyword to expose a module's properties and methods, which we'll look at later in this chapter. These are the same constructs Node.js uses for JavaScript modules, so if you know how to use Node.js modules, you already know how to use NativeScript modules.
 
